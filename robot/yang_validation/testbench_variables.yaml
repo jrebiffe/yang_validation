@@ -1,0 +1,31 @@
+%YAML 1.1
+---
+
+LINK:    # A list containing 2 endpoints
+  - interface: RTL-13-255-1
+    ne: RTN980_1
+    # Workaround for Huawei ietf-microwave-radio-link implementation:
+    # ODU should not be distinct (odu_interface = interface).
+    # odu_low_freq & odu_high_freq should be disciovered using
+    # /interfaces/interface/capabilities/min-tx-frequency & max-tx-frequency
+    odu_interface: RTL-63-255-1
+    odu_min_tx_frequency: 22998500  # kHz
+    odu_max_tx_frequency: 23338000  # kHz
+  - interface: RTL-13-255-1
+    ne: RTN980_2
+    odu_interface: RTL-63-255-1
+    odu_min_tx_frequency: 21990500  # kHz
+    odu_max_tx_frequency: 22330000  # kHz
+
+NETWORK_ELEMENTS:
+  NE1:
+    netconf:
+      host: 172.20.183.168
+      username: netconfuser
+      password: NotSoSecret123*
+  NE2:
+    netconf:
+      host: 172.20.183.169
+      username: netconfuser
+      password: NotSoSecret123*
+...
