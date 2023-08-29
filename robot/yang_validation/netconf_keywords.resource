@@ -14,7 +14,8 @@ NETCONF Setup
     ...    - ${alias}: Optional alias name, when open several connection to a single NE.
     [Arguments]    ${network_element}    ${alias}=${network_element}
     Sleep    2 seconds
-    Connect    huawei_hook=True    alias=${alias}    &{NETWORK_ELEMENTS}[${network_element}][netconf]
+    Connect    alias=${alias}    &{NETWORK_ELEMENTS}[${network_element}][netconf]
+    # Connect    huawei_hook=True    alias=${alias}    &{NETWORK_ELEMENTS}[${network_element}][netconf]
 
 # NETCONF Teardown
 #    [Documentation]    To Call Using ``Suite Teardown``.
