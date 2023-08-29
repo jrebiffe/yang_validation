@@ -2,8 +2,8 @@
 
 Validation of YANG model and NETCONF features on Network Equipements
 
-The current testsuite include *55 automated tests* which validation of NETCONF
-and YANG. It takes around 1 minute to complet all.
+The current testsuite include **55 automated tests** which validation of
+NETCONF and YANG. It takes around 1 minute to complet all.
 
 That set of NETCONF's "capabilties" and YANG data models is based on 4th plugtest
 (see [4th mWT Plugtests report](https://portal.etsi.org/Portals/0/TBpages/CTI/Docs/4th_mWT_PLUGTESTS_REPORT_v1_0.pdf)).
