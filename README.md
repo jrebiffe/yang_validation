@@ -74,5 +74,5 @@ cd robot/
 robot yang_validation/
 ```
 
-Collect the produced files: report.html, log.html.
+Collect the 3 produced files: report.html, log.html and output.xml.
 Share them in the validation report.
