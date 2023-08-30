@@ -2,8 +2,16 @@
 
 Validation of YANG model and NETCONF features on Network Equipements
 
-The current testsuite include **55 automated tests** which validation of
-NETCONF and YANG. It takes around 1 minute to complet all.
+The current testsuite includes **55 automated tests** which validation of
+NETCONF and YANG. It takes around 1 minute to complete them all.
+
+## Online documentation
+
+- [YANG and NETCONF Testsuite documentation](https://jrebiffe.github.io/yang_validation/yang_netconf_validation.html)
+- [NETCONF keywords documentation](https://jrebiffe.github.io/yang_validation/netconf_keyword.html)
+- [NcclientLibraryHuaweiYANG documentation](https://jrebiffe.github.io/yang_validation/NcclientLibraryHuaweiYANG.html)
+
+## Current Testsuite
 
 That set of NETCONF's "capabilties" and YANG data models is based on 4th plugtest
 (see [4th mWT Plugtests report](https://portal.etsi.org/Portals/0/TBpages/CTI/Docs/4th_mWT_PLUGTESTS_REPORT_v1_0.pdf)).
